@@ -1,0 +1,13 @@
+import com.locusnine.user.User
+
+model {
+    List< User> userList = []
+}
+
+json userList,  { User user ->
+    name user.name
+    emailID user.emailID
+    mobile user.mobile
+    status user.status.name()
+    roleType user.roleType.name()
+}
