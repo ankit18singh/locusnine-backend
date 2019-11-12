@@ -1,4 +1,4 @@
-package locusnine.backend
+package com.locusnine.backend
 
 class BootStrap {
 

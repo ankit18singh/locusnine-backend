@@ -1,4 +1,4 @@
-package locusnine.backend
+package com.locusnine.backend
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration
